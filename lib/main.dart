@@ -1,3 +1,4 @@
+import 'package:app/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main()
@@ -14,13 +15,7 @@ class MyApp extends StatelessWidget {
 
 Widget build(BuildContext context) {
   return MaterialApp(
-    home: Material(
-      child: Center(
-        child: Container(
-    child: Text('flutter', style: TextStyle(fontSize: 100),),
-        ),
-      ),
-    ),
+    home: HomePage()
   );
   
 }
